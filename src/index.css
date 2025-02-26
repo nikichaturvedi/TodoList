@@ -71,18 +71,34 @@ input{
   height: 25px;
 }
 
-#delete{
-  height: 35px;
-  text-align: center;
-  margin-left: 40px;
-  padding: 2px;
-  background-color: rgb(215, 16, 122);
+.fa-solid{
+  font-size: x-large;
+  margin-right: 15px;
 }
 
-#isdone{
-  height: 35px;
-  text-align: center;
-  margin-left: 30px;
-  padding: 3px;
-  background-color: rgb(215, 16, 122);
+#done{
+color: rgb(95, 95, 236);
 }
+
+#delete{
+  color: rgb(202, 62, 62);
+  }
+
+#delete:hover{
+    color: rgb(193, 7, 7);
+    }
+
+ #done:hover{
+      color: rgb(16, 16, 171);
+      } 
+
+.container{
+  width: 500px;
+  border: 2px solid black;
+  border-radius: 5px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+
